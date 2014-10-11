@@ -1,0 +1,27 @@
+{
+    "name": "yivo-node-registry",
+    "version": "1.0.0",
+    "description": "application registry",
+    "main": "default.coffee",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yivo/node-registry"
+    },
+    "author": "Yaroslav Konoplov",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yivo/node-registry/issues"
+    },
+    "homepage": "https://github.com/yivo/node-registry",
+    "files": [
+        "registry.coffee",
+        "registry-reader.coffee",
+        "default.coffee"
+    ],
+    "dependencies": {
+        "lodash": "^2.4.1"
+    }
+}
