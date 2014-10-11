@@ -22,4 +22,4 @@ class Registry
 
     ref
 
-
+module.exports = Registry
