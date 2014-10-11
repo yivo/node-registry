@@ -14,7 +14,7 @@ class Registry
     nodes = String(path).split @rNodesDelimiter
     ref = @data
 
-    while node = nodes.pop()
+    while node = nodes.shift()
       unless ref?
         # do exception
         throw 'No error text'
